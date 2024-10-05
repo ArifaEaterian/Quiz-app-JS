@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(233, 225, 225);
+  margin: 100px auto 0;
+  width: 90%;
+}
+.app{
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.header .top {
+  text-align: center;
+}
+.headerSub {
+  display: flex;
+  justify-content: space-between;
+}
+.qBody{
+    padding: 20px;
+
+}
+.qBody .questions{
+    margin: 10px 0px;
+    font-size: 150%;
+    font-weight: 500;
+    font-weight: bold;
+    color: rgb(56, 39, 39);
+}
+
+#answer_Btn {
+    margin: 10px 0px;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;  
+    gap: 8px;
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(19, 7, 7);
+    height: 40px;
+    width: 100%;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover:not([disabled]){
+  background-color: black;
+  color: aliceblue;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+
+.submit{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  font-size: large;
+  border-radius: 10%;
+  cursor: pointer;
+  display: none;
+  margin: 0 auto;
+}
+.submit:hover{
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+.correct{
+  background-color: greenyellow;
+}
+.incorrect{
+  background-color: crimson;
+}
